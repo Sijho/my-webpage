@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bank.css"/>
+</head>
+<body>
+    <header><h1>My Bank</h1></header>
+    <nav>
+        <a href="bank1.html">Home</a>
+        <a href="account.html">Account</a>
+        <a href="loan.html">Loan</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section class="content">
+        <h3 style="text-align: center; margin-bottom: 20px; ">Loan Option & Application</h3>
+        <form>
+            <label for="loantype">Loan Type : </label>
+            <select id="loantype" name="loantype">
+                <option>personal Loan</option>
+                <option>Home Loan</option>
+                <option>Education Loan</option>
+            </select>
+            <label for="amount">Amount</label>
+            <input type="number" name="amount" id="amount" placeholder="Enter Amount">
+            <label for="term">Term(year) : </label>
+            <input type="number" name="term" id="term" placeholder="Eg : 5">
+            <button type="submit" >Apply</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy;All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
